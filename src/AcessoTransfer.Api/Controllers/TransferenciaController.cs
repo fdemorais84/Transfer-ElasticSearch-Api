@@ -6,6 +6,7 @@ using AcessoTransfer.Api.Model;
 using AcessoTransfer.Domain.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using Swashbuckle.AspNetCore.Annotations;
 
 namespace AcessoTransfer.Api.Controllers
 {    
@@ -21,6 +22,7 @@ namespace AcessoTransfer.Api.Controllers
         }
 
         [HttpPost("api/fund-transfer")]
+        [SwaggerOperation(Summary = "Envia os dados das conta para validação e o valor da transferência.")]
         public async Task<IActionResult> RealizarTransferencia([FromBody] Transferencia dados)
         {
             _logger.LogInformation(
@@ -33,6 +35,7 @@ namespace AcessoTransfer.Api.Controllers
         }
 
         [HttpGet("api/fund-transfer/{transactionId:Guid}")]
+        [SwaggerOperation(Summary = "Consulta o status da transferência realizada.")]
         public async Task<IActionResult> ConsultarStatusTranferencia(Guid transactionId)
         {
             _logger.LogInformation(

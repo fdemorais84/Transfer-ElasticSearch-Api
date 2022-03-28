@@ -16,3 +16,12 @@ C:\Users\User\Desktop\Teste-Acesso\AcessoTransferElastic\AcessoTransfer\src\Aces
 C:\Users\User\Desktop\Teste-Acesso\AcessoTransferElastic\AcessoTransfer\src\AcessoTransfer.Infra\obj\Debug\netcoreapp3.1\AcessoTransfer.Infra.csproj.CoreCompileInputs.cache
 C:\Users\User\Desktop\Teste-Acesso\AcessoTransferElastic\AcessoTransfer\src\AcessoTransfer.Infra\obj\Debug\netcoreapp3.1\AcessoTransfer.Infra.dll
 C:\Users\User\Desktop\Teste-Acesso\AcessoTransferElastic\AcessoTransfer\src\AcessoTransfer.Infra\obj\Debug\netcoreapp3.1\AcessoTransfer.Infra.pdb
+C:\Users\User\Desktop\Teste-Elastic\Transfer-ElasticSearch-Api\src\AcessoTransfer.Infra\bin\Debug\netcoreapp3.1\AcessoTransfer.Infra.deps.json
+C:\Users\User\Desktop\Teste-Elastic\Transfer-ElasticSearch-Api\src\AcessoTransfer.Infra\bin\Debug\netcoreapp3.1\AcessoTransfer.Infra.dll
+C:\Users\User\Desktop\Teste-Elastic\Transfer-ElasticSearch-Api\src\AcessoTransfer.Infra\bin\Debug\netcoreapp3.1\AcessoTransfer.Infra.pdb
+C:\Users\User\Desktop\Teste-Elastic\Transfer-ElasticSearch-Api\src\AcessoTransfer.Infra\obj\Debug\netcoreapp3.1\AcessoTransfer.Infra.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Teste-Elastic\Transfer-ElasticSearch-Api\src\AcessoTransfer.Infra\obj\Debug\netcoreapp3.1\AcessoTransfer.Infra.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Teste-Elastic\Transfer-ElasticSearch-Api\src\AcessoTransfer.Infra\obj\Debug\netcoreapp3.1\AcessoTransfer.Infra.AssemblyInfo.cs
+C:\Users\User\Desktop\Teste-Elastic\Transfer-ElasticSearch-Api\src\AcessoTransfer.Infra\obj\Debug\netcoreapp3.1\AcessoTransfer.Infra.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Teste-Elastic\Transfer-ElasticSearch-Api\src\AcessoTransfer.Infra\obj\Debug\netcoreapp3.1\AcessoTransfer.Infra.dll
+C:\Users\User\Desktop\Teste-Elastic\Transfer-ElasticSearch-Api\src\AcessoTransfer.Infra\obj\Debug\netcoreapp3.1\AcessoTransfer.Infra.pdb

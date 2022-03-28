@@ -35,6 +35,7 @@ namespace AcessoTransfer.Api
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "AcessoTransferAPI", Version = "v1" });
+                c.EnableAnnotations();
             });
 
             services.ResolveDependencies();

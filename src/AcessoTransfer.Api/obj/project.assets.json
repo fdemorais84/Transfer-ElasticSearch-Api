@@ -1367,6 +1367,18 @@
           "build/Swashbuckle.AspNetCore.props": {}
         }
       },
+      "Swashbuckle.AspNetCore.Annotations/6.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Swashbuckle.AspNetCore.SwaggerGen": "6.3.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Annotations.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Annotations.dll": {}
+        }
+      },
       "Swashbuckle.AspNetCore.Swagger/6.3.0": {
         "type": "package",
         "dependencies": {
@@ -4805,6 +4817,29 @@
         "build/Swashbuckle.AspNetCore.props",
         "swashbuckle.aspnetcore.6.3.0.nupkg.sha512",
         "swashbuckle.aspnetcore.nuspec"
+      ]
+    },
+    "Swashbuckle.AspNetCore.Annotations/6.3.0": {
+      "sha512": "MylnnwqP0OwHUnYAKc3v5jBlWHWLBoi5Jw2d+1Tw2ozPJGIBMko0XIlgBURMpEhV7vmIqjXEQ+zk5iDlFRfLIg==",
+      "type": "package",
+      "path": "swashbuckle.aspnetcore.annotations/6.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net5.0/Swashbuckle.AspNetCore.Annotations.dll",
+        "lib/net5.0/Swashbuckle.AspNetCore.Annotations.pdb",
+        "lib/net5.0/Swashbuckle.AspNetCore.Annotations.xml",
+        "lib/net6.0/Swashbuckle.AspNetCore.Annotations.dll",
+        "lib/net6.0/Swashbuckle.AspNetCore.Annotations.pdb",
+        "lib/net6.0/Swashbuckle.AspNetCore.Annotations.xml",
+        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Annotations.dll",
+        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Annotations.pdb",
+        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Annotations.xml",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.Annotations.dll",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.Annotations.pdb",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.Annotations.xml",
+        "swashbuckle.aspnetcore.annotations.6.3.0.nupkg.sha512",
+        "swashbuckle.aspnetcore.annotations.nuspec"
       ]
     },
     "Swashbuckle.AspNetCore.Swagger/6.3.0": {
@@ -9049,7 +9084,8 @@
       "Serilog.AspNetCore >= 5.0.0",
       "Serilog.Sinks.Elasticsearch >= 8.4.1",
       "Serilog.Sinks.SQLite >= 5.0.0",
-      "Swashbuckle.AspNetCore >= 6.3.0"
+      "Swashbuckle.AspNetCore >= 6.3.0",
+      "Swashbuckle.AspNetCore.Annotations >= 6.3.0"
     ]
   },
   "packageFolders": {
@@ -9059,11 +9095,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\Teste-Acesso\\AcessoTransferElastic\\AcessoTransfer\\src\\AcessoTransfer.Api\\AcessoTransfer.Api.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\Teste-Elastic\\Transfer-ElasticSearch-Api\\src\\AcessoTransfer.Api\\AcessoTransfer.Api.csproj",
       "projectName": "AcessoTransfer.Api",
-      "projectPath": "C:\\Users\\User\\Desktop\\Teste-Acesso\\AcessoTransferElastic\\AcessoTransfer\\src\\AcessoTransfer.Api\\AcessoTransfer.Api.csproj",
+      "projectPath": "C:\\Users\\User\\Desktop\\Teste-Elastic\\Transfer-ElasticSearch-Api\\src\\AcessoTransfer.Api\\AcessoTransfer.Api.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\Teste-Acesso\\AcessoTransferElastic\\AcessoTransfer\\src\\AcessoTransfer.Api\\obj\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\Teste-Elastic\\Transfer-ElasticSearch-Api\\src\\AcessoTransfer.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -9082,11 +9118,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\User\\Desktop\\Teste-Acesso\\AcessoTransferElastic\\AcessoTransfer\\src\\AcessoTransfer.Data\\AcessoTransfer.Data.csproj": {
-              "projectPath": "C:\\Users\\User\\Desktop\\Teste-Acesso\\AcessoTransferElastic\\AcessoTransfer\\src\\AcessoTransfer.Data\\AcessoTransfer.Data.csproj"
+            "C:\\Users\\User\\Desktop\\Teste-Elastic\\Transfer-ElasticSearch-Api\\src\\AcessoTransfer.Data\\AcessoTransfer.Data.csproj": {
+              "projectPath": "C:\\Users\\User\\Desktop\\Teste-Elastic\\Transfer-ElasticSearch-Api\\src\\AcessoTransfer.Data\\AcessoTransfer.Data.csproj"
             },
-            "C:\\Users\\User\\Desktop\\Teste-Acesso\\AcessoTransferElastic\\AcessoTransfer\\src\\AcessoTransfer.Domain\\AcessoTransfer.Domain.csproj": {
-              "projectPath": "C:\\Users\\User\\Desktop\\Teste-Acesso\\AcessoTransferElastic\\AcessoTransfer\\src\\AcessoTransfer.Domain\\AcessoTransfer.Domain.csproj"
+            "C:\\Users\\User\\Desktop\\Teste-Elastic\\Transfer-ElasticSearch-Api\\src\\AcessoTransfer.Domain\\AcessoTransfer.Domain.csproj": {
+              "projectPath": "C:\\Users\\User\\Desktop\\Teste-Elastic\\Transfer-ElasticSearch-Api\\src\\AcessoTransfer.Domain\\AcessoTransfer.Domain.csproj"
             }
           }
         }
@@ -9165,6 +9201,10 @@
             "version": "[5.0.0, )"
           },
           "Swashbuckle.AspNetCore": {
+            "target": "Package",
+            "version": "[6.3.0, )"
+          },
+          "Swashbuckle.AspNetCore.Annotations": {
             "target": "Package",
             "version": "[6.3.0, )"
           }

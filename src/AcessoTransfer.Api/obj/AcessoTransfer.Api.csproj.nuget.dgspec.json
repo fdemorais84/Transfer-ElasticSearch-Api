@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\Teste-Acesso\\AcessoTransferElastic\\AcessoTransfer\\src\\AcessoTransfer.Api\\AcessoTransfer.Api.csproj": {}
+    "C:\\Users\\User\\Desktop\\Teste-Elastic\\Transfer-ElasticSearch-Api\\src\\AcessoTransfer.Api\\AcessoTransfer.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\Teste-Acesso\\AcessoTransferElastic\\AcessoTransfer\\src\\AcessoTransfer.Api\\AcessoTransfer.Api.csproj": {
+    "C:\\Users\\User\\Desktop\\Teste-Elastic\\Transfer-ElasticSearch-Api\\src\\AcessoTransfer.Api\\AcessoTransfer.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\Teste-Acesso\\AcessoTransferElastic\\AcessoTransfer\\src\\AcessoTransfer.Api\\AcessoTransfer.Api.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\Teste-Elastic\\Transfer-ElasticSearch-Api\\src\\AcessoTransfer.Api\\AcessoTransfer.Api.csproj",
         "projectName": "AcessoTransfer.Api",
-        "projectPath": "C:\\Users\\User\\Desktop\\Teste-Acesso\\AcessoTransferElastic\\AcessoTransfer\\src\\AcessoTransfer.Api\\AcessoTransfer.Api.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\Teste-Elastic\\Transfer-ElasticSearch-Api\\src\\AcessoTransfer.Api\\AcessoTransfer.Api.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\Teste-Acesso\\AcessoTransferElastic\\AcessoTransfer\\src\\AcessoTransfer.Api\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\Teste-Elastic\\Transfer-ElasticSearch-Api\\src\\AcessoTransfer.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,11 +30,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\User\\Desktop\\Teste-Acesso\\AcessoTransferElastic\\AcessoTransfer\\src\\AcessoTransfer.Data\\AcessoTransfer.Data.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\Teste-Acesso\\AcessoTransferElastic\\AcessoTransfer\\src\\AcessoTransfer.Data\\AcessoTransfer.Data.csproj"
+              "C:\\Users\\User\\Desktop\\Teste-Elastic\\Transfer-ElasticSearch-Api\\src\\AcessoTransfer.Data\\AcessoTransfer.Data.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\Teste-Elastic\\Transfer-ElasticSearch-Api\\src\\AcessoTransfer.Data\\AcessoTransfer.Data.csproj"
               },
-              "C:\\Users\\User\\Desktop\\Teste-Acesso\\AcessoTransferElastic\\AcessoTransfer\\src\\AcessoTransfer.Domain\\AcessoTransfer.Domain.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\Teste-Acesso\\AcessoTransferElastic\\AcessoTransfer\\src\\AcessoTransfer.Domain\\AcessoTransfer.Domain.csproj"
+              "C:\\Users\\User\\Desktop\\Teste-Elastic\\Transfer-ElasticSearch-Api\\src\\AcessoTransfer.Domain\\AcessoTransfer.Domain.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\Teste-Elastic\\Transfer-ElasticSearch-Api\\src\\AcessoTransfer.Domain\\AcessoTransfer.Domain.csproj"
               }
             }
           }
@@ -115,6 +115,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.3.0, )"
+            },
+            "Swashbuckle.AspNetCore.Annotations": {
+              "target": "Package",
+              "version": "[6.3.0, )"
             }
           },
           "imports": [
@@ -139,14 +143,14 @@
         }
       }
     },
-    "C:\\Users\\User\\Desktop\\Teste-Acesso\\AcessoTransferElastic\\AcessoTransfer\\src\\AcessoTransfer.Data\\AcessoTransfer.Data.csproj": {
+    "C:\\Users\\User\\Desktop\\Teste-Elastic\\Transfer-ElasticSearch-Api\\src\\AcessoTransfer.Data\\AcessoTransfer.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\Teste-Acesso\\AcessoTransferElastic\\AcessoTransfer\\src\\AcessoTransfer.Data\\AcessoTransfer.Data.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\Teste-Elastic\\Transfer-ElasticSearch-Api\\src\\AcessoTransfer.Data\\AcessoTransfer.Data.csproj",
         "projectName": "AcessoTransfer.Data",
-        "projectPath": "C:\\Users\\User\\Desktop\\Teste-Acesso\\AcessoTransferElastic\\AcessoTransfer\\src\\AcessoTransfer.Data\\AcessoTransfer.Data.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\Teste-Elastic\\Transfer-ElasticSearch-Api\\src\\AcessoTransfer.Data\\AcessoTransfer.Data.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\Teste-Acesso\\AcessoTransferElastic\\AcessoTransfer\\src\\AcessoTransfer.Data\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\Teste-Elastic\\Transfer-ElasticSearch-Api\\src\\AcessoTransfer.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -165,8 +169,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\User\\Desktop\\Teste-Acesso\\AcessoTransferElastic\\AcessoTransfer\\src\\AcessoTransfer.Domain\\AcessoTransfer.Domain.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\Teste-Acesso\\AcessoTransferElastic\\AcessoTransfer\\src\\AcessoTransfer.Domain\\AcessoTransfer.Domain.csproj"
+              "C:\\Users\\User\\Desktop\\Teste-Elastic\\Transfer-ElasticSearch-Api\\src\\AcessoTransfer.Domain\\AcessoTransfer.Domain.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\Teste-Elastic\\Transfer-ElasticSearch-Api\\src\\AcessoTransfer.Domain\\AcessoTransfer.Domain.csproj"
               }
             }
           }
@@ -244,14 +248,14 @@
         }
       }
     },
-    "C:\\Users\\User\\Desktop\\Teste-Acesso\\AcessoTransferElastic\\AcessoTransfer\\src\\AcessoTransfer.Domain\\AcessoTransfer.Domain.csproj": {
+    "C:\\Users\\User\\Desktop\\Teste-Elastic\\Transfer-ElasticSearch-Api\\src\\AcessoTransfer.Domain\\AcessoTransfer.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\Teste-Acesso\\AcessoTransferElastic\\AcessoTransfer\\src\\AcessoTransfer.Domain\\AcessoTransfer.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\Teste-Elastic\\Transfer-ElasticSearch-Api\\src\\AcessoTransfer.Domain\\AcessoTransfer.Domain.csproj",
         "projectName": "AcessoTransfer.Domain",
-        "projectPath": "C:\\Users\\User\\Desktop\\Teste-Acesso\\AcessoTransferElastic\\AcessoTransfer\\src\\AcessoTransfer.Domain\\AcessoTransfer.Domain.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\Teste-Elastic\\Transfer-ElasticSearch-Api\\src\\AcessoTransfer.Domain\\AcessoTransfer.Domain.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\Teste-Acesso\\AcessoTransferElastic\\AcessoTransfer\\src\\AcessoTransfer.Domain\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\Teste-Elastic\\Transfer-ElasticSearch-Api\\src\\AcessoTransfer.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -270,8 +274,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\User\\Desktop\\Teste-Acesso\\AcessoTransferElastic\\AcessoTransfer\\src\\AcessoTransfer.Infra\\AcessoTransfer.Infra.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\Teste-Acesso\\AcessoTransferElastic\\AcessoTransfer\\src\\AcessoTransfer.Infra\\AcessoTransfer.Infra.csproj"
+              "C:\\Users\\User\\Desktop\\Teste-Elastic\\Transfer-ElasticSearch-Api\\src\\AcessoTransfer.Infra\\AcessoTransfer.Infra.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\Teste-Elastic\\Transfer-ElasticSearch-Api\\src\\AcessoTransfer.Infra\\AcessoTransfer.Infra.csproj"
               }
             }
           }
@@ -349,14 +353,14 @@
         }
       }
     },
-    "C:\\Users\\User\\Desktop\\Teste-Acesso\\AcessoTransferElastic\\AcessoTransfer\\src\\AcessoTransfer.Infra\\AcessoTransfer.Infra.csproj": {
+    "C:\\Users\\User\\Desktop\\Teste-Elastic\\Transfer-ElasticSearch-Api\\src\\AcessoTransfer.Infra\\AcessoTransfer.Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\Teste-Acesso\\AcessoTransferElastic\\AcessoTransfer\\src\\AcessoTransfer.Infra\\AcessoTransfer.Infra.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\Teste-Elastic\\Transfer-ElasticSearch-Api\\src\\AcessoTransfer.Infra\\AcessoTransfer.Infra.csproj",
         "projectName": "AcessoTransfer.Infra",
-        "projectPath": "C:\\Users\\User\\Desktop\\Teste-Acesso\\AcessoTransferElastic\\AcessoTransfer\\src\\AcessoTransfer.Infra\\AcessoTransfer.Infra.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\Teste-Elastic\\Transfer-ElasticSearch-Api\\src\\AcessoTransfer.Infra\\AcessoTransfer.Infra.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\Teste-Acesso\\AcessoTransferElastic\\AcessoTransfer\\src\\AcessoTransfer.Infra\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\Teste-Elastic\\Transfer-ElasticSearch-Api\\src\\AcessoTransfer.Infra\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

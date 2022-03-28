@@ -4570,11 +4570,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\Teste-Acesso\\AcessoTransferElastic\\AcessoTransfer\\src\\AcessoTransfer.Infra\\AcessoTransfer.Infra.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\Teste-Elastic\\Transfer-ElasticSearch-Api\\src\\AcessoTransfer.Infra\\AcessoTransfer.Infra.csproj",
       "projectName": "AcessoTransfer.Infra",
-      "projectPath": "C:\\Users\\User\\Desktop\\Teste-Acesso\\AcessoTransferElastic\\AcessoTransfer\\src\\AcessoTransfer.Infra\\AcessoTransfer.Infra.csproj",
+      "projectPath": "C:\\Users\\User\\Desktop\\Teste-Elastic\\Transfer-ElasticSearch-Api\\src\\AcessoTransfer.Infra\\AcessoTransfer.Infra.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\Teste-Acesso\\AcessoTransferElastic\\AcessoTransfer\\src\\AcessoTransfer.Infra\\obj\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\Teste-Elastic\\Transfer-ElasticSearch-Api\\src\\AcessoTransfer.Infra\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
